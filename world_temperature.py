@@ -1,10 +1,9 @@
-# Программа для определения погоды в любом городе мира
-# 
-# Автор: Постнов Степан, студент МГТУ им. Баумана
+# Определение погоды в любом городе мира
 
 
 import requests as r
 import requests.exceptions
+
 
 your_city = input('Enter your city: ')
 flag = True
